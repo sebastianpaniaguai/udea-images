@@ -39,7 +39,7 @@
     width: 90%;
     height: 0;
     padding-bottom: 63%;
-    background-image: url("https://raw.githubusercontent.com/sebastianpaniaguai/udea-images/master/tabaquismo/2_sprite_menu%20principal.png");
+    background-image: url(https://raw.githubusercontent.com/sebastianpaniaguai/udea-images/master/tabaquismo/images/2_sprite_menu%20principal.png);
     background-position: -3% 0;
     background-size: 400%;
     display: block;
@@ -408,7 +408,7 @@ footer .footer-info {
     width: 25vh;
     height: 0;
     padding-bottom: 20vh;
-    background-image: url(https://raw.githubusercontent.com/sebastianpaniaguai/udea-images/master/tabaquismo/3_sprite_inicio.png);
+    background-image: url(https://raw.githubusercontent.com/sebastianpaniaguai/udea-images/master/tabaquismo/images/3_sprite_inicio.png);
     background-size: 500%;
     background-position: 0 0;
     display: block;
@@ -489,7 +489,7 @@ footer .footer-info {
     width: 25vh;
     height: 0;
     padding-bottom: 20vh;
-    background-image: url(https://raw.githubusercontent.com/sebastianpaniaguai/udea-images/master/tabaquismo/4_sprite_paginas%20internas.png);
+    background-image: url(https://raw.githubusercontent.com/sebastianpaniaguai/udea-images/master/tabaquismo/images/4_sprite_paginas%20internas.png);
     background-size: 900%;
     background-position: 0 0;
     display: block;
@@ -537,11 +537,11 @@ footer .footer-info {
     text-align: center;
 }
 
-.material-element .material-element-img {
+.material-element .material-element-img, .videoclases-container .material-element-img {
     width: 25vh;
     height: 0;
     padding-bottom: 20vh;
-    background-image: url(https://raw.githubusercontent.com/sebastianpaniaguai/udea-images/master/tabaquismo/4_sprite_paginas%20internas.png);
+    background-image: url(https://raw.githubusercontent.com/sebastianpaniaguai/udea-images/master/tabaquismo/images/4_sprite_paginas%20internas.png);
     background-size: 900%;
     background-position: 37.5% 0;
     display: block;
@@ -552,6 +552,55 @@ footer .footer-info {
 
 .material-element:nth-child(2) .material-element-img {
     background-position: 50% 0;
+}
+
+.header-img-container {
+    width: 50vh;
+    height: auto;
+}
+
+.header-img {
+    border-radius: 12px;
+}
+
+.very-good-container {
+    display: block;
+    width: 99.8%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #EEF4F5;
+    border-radius: 0 0 25px 25px;
+    margin-top: -100px;
+    z-index: 1;
+    position: absolute;
+    left: 6px;
+}
+
+.very-good-container div {
+    max-width: 15%;
+    margin: 0 auto;
+}
+
+.very-good-container .very-good-text {
+    font-size: 18px;
+    color: #3E387B;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.videoclases-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px;
+}
+
+.videoclases-container a{
+    display: block;
+    align-items: center;
+    margin: 0 auto;
+    padding: 25px;
 }
 
 /* Finalizacion */
@@ -615,7 +664,7 @@ footer .footer-info {
     width: 25vh;
     height: 0;
     padding-bottom: 20vh;
-    background-image: url(https://raw.githubusercontent.com/sebastianpaniaguai/udea-images/master/tabaquismo/4_sprite_paginas%20internas.png);
+    background-image: url(https://raw.githubusercontent.com/sebastianpaniaguai/udea-images/master/tabaquismo/images/4_sprite_paginas%20internas.png);
     background-size: 900%;
     background-position: 87.5% 0;
     display: block;
@@ -947,10 +996,23 @@ footer .footer-info {
 }
 
 span.see-more a {
-    color: #fff;
-    background: #3F3B78;
+    background-color: #fff;
     padding: 0.21rem;
-    border-radius: 25px;
+    border-radius: 12px;
+    text-decoration: none;
+}
+
+span.see-more span {
+    text-decoration: none;
+    color: #5B5C8F;
+    font-size: 12px;
+    font-weight: 600;
+    font-style: normal;
+}
+
+span.see-more img.activityicon {
+    height: 25px!important;
+    width: 25px!important;
 }
 
 .manejo-container {
@@ -964,3 +1026,11 @@ span.see-more a {
     max-width: 50%;
     margin-right: 50px;
 }
+
+.h5p-iframe-wrapper {
+    width: auto;
+    height: auto;
+    max-width: 1024px;
+    margin: 20px auto;
+}
+
