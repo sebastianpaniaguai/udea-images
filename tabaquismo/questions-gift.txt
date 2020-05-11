@@ -1,0 +1,27 @@
+Departamento de residencia {=}
+
+Municipio de residencia {=}
+
+Género {
+    =Masculino
+    ~Femenino
+}
+
+Edad {=}
+
+Nivel educativo {
+    =Bachillerato
+    =Técnica/tecnología incompleta
+    =Técnica/tecnología completa
+    =Universitario incompleto
+    =Universitario completo
+    =Posgrado incompleto
+    ~Posgrado completo
+}
+
+¿Actualmente labora? {
+    =Si
+    ~No
+}
+
+Rol/cargo: {=}
